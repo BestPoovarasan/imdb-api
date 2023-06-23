@@ -27,7 +27,7 @@ const User = new schema({
         required: true
     },
     images: {
-        type: Array,
+        type: String,
         required: true
     }
 });
