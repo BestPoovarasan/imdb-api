@@ -7,7 +7,7 @@ const User = new schema({
         required: true
     },
     year: {
-        type: String,
+        type: Number,
         required: true
     },
     runtime: {
